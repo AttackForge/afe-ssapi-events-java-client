@@ -1,5 +1,5 @@
 # AttackForge Enterprise Self-Service Events API
-## Java Client v0.0.1
+## Java Client v1.0.0
 
   * [Git](https://github.com/AttackForge/afe-ssapi-events-java-client.git)
   * [Support](https://support.attackforge.com/attackforge-enterprise/modules/self-service-events-api/getting-started)
@@ -82,11 +82,11 @@ Using Maven, install dependancies and build the Java client as a JAR.
 ### Step 3: Run client
 Run following command, substituting variables below with your configuration details:
 
-	$ HOSTNAME="YOUR-AFE-HOSTNAME" EVENTS="YOUR-EVENTS" X_SSAPI_KEY="YOUR-API-KEY" java -jar target/afe-ssapi-events-java-client-1.0-SNAPSHOT-jar-with-dependencies.jar
+	$ HOSTNAME="YOUR-AFE-HOSTNAME" EVENTS="YOUR-EVENTS" X_SSAPI_KEY="YOUR-API-KEY" java -jar target/afe-ssapi-events-java-client-1.0.0-jar-with-dependencies.jar
 
 An example is included below for reference:
 
-	$ HOSTNAME="demo.attackforge.com" EVENTS="vulnerability-created,vulnerability-updated" X_SSAPI_KEY="q9ef672kqZIQymCZRuiKMeWbeaXEzBzqRCfGcpWEpoBNU2Bk4UmtktsZVDDgRzlC0BOHH9x0y4EzbBGeSKO9PRskEmHATXHs2sVe7tS98U0DuDFjH0RdPFWUpgZDWgIESy9yNDesm6Xi8C9HsikddyBKsATXat2604dPrr4Ca86J8Y5IkEnqUwYzw3MoSbzHeXZ0DKHqKz6Icv9dtrsnAFzpXg1P423uRllq4LqFjP4J8hAtrWZ9296h3uh9B5Vp" java -jar target/afe-ssapi-events-java-client-1.0-SNAPSHOT-jar-with-dependencies.jar
+	$ HOSTNAME="demo.attackforge.com" EVENTS="vulnerability-created,vulnerability-updated" X_SSAPI_KEY="q9ef672kqZIQymCZRuiKMeWbeaXEzBzqRCfGcpWEpoBNU2Bk4UmtktsZVDDgRzlC0BOHH9x0y4EzbBGeSKO9PRskEmHATXHs2sVe7tS98U0DuDFjH0RdPFWUpgZDWgIESy9yNDesm6Xi8C9HsikddyBKsATXat2604dPrr4Ca86J8Y5IkEnqUwYzw3MoSbzHeXZ0DKHqKz6Icv9dtrsnAFzpXg1P423uRllq4LqFjP4J8hAtrWZ9296h3uh9B5Vp" java -jar target/afe-ssapi-events-java-client-1.0.0-jar-with-dependencies.jar
 
 If your client is successfully subscribed to the events, you should see similar output in your terminal:
 
